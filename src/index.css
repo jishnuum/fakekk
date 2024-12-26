@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.card{
+  border: 1px solid white;
+  
+  padding: 10px;
+  max-height: 400px;
+  
+
+}
+
+.productcard img{
+  width: 250px;
+  height: 200px;
+}
+
+.cardarea{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+}
+
+.head{
+  text-align: center;
+  background-color: rgb(144, 114, 172);
+  padding: 10px 0px;
+}
+.head h1{
+  display: inline;
+  background: transparent;
+}
